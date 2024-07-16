@@ -1,0 +1,65 @@
+version: '3'
+
+services:
+
+  mysql:
+    image: mysql:5.7
+    restart: always
+    container_name: mysql
+    environment:
+      MYSQL_USER: dbUser
+      MYSQL_PASSWORD: dbPassword
+      MYSQL_ROOT_PASSWORD: dbPassword
+      MYSQL_DATABASE: dbDatabase
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - bus-dev-utils
+
+  nats:
+    image: nats:2.1
+    container_name: nats
+    ports:
+      - "4222:4222"
+    networks:
+      - bus-dev-utils
+
+  redis:
+    image: redis:6.0
+    command: redis-server /usr/local/etc/redis/redis.conf
+    container_name: redis
+    volumes:
+      - ./redis/:/usr/local/etc/redis/
+      - redis:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - bus-dev-utils
+
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres
+    environment:
+      POSTGRES_USER: dbUser
+      POSTGRES_PASSWORD: dbPassword
+      POSTGRES_DB: dbDatabase
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - bus-dev-utils
+
+volumes:
+  postgres:
+  redis:
+  mysql:
+
+networks:
+  bus-dev-utils:
+    name: bus-dev-utils

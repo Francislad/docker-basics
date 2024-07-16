@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6344291f-5aee-4226-8f3b-f858747ca75c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/.idea/examples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Dockerfile.PG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Dockerfile.PG.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/docker-compose.bus-dev-utils.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/.idea/simple-compose.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/Dockerfile.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/docker-compose.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-compose/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/.idea/simple-dockerfile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/Dockerfile.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-dockerfile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2jJF2uxuNETou344nvpFqmcNPhe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6344291f-5aee-4226-8f3b-f858747ca75c" name="Changes" comment="" />
+      <created>1721097075548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721097075548</updated>
+      <workItem from="1721097076772" duration="3579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

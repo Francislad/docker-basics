@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  composed-container:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: composed-image
+    container_name: composed-container
+    env_file: docker-compose.env
+    volumes:
+      - .:/app
+      - modules:/app/node_modules
+    ports:
+      - "3000:3000"
+    networks:
+      - simple-network
+
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres
+    environment:
+      POSTGRES_USER: dbUser
+      POSTGRES_PASSWORD: dbPassword
+      POSTGRES_DB: dbDatabase
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - simple-network
+
+volumes:
+  modules:
+  postgres:
+
+networks:
+  simple-network:
+    name: simple-network
